@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title "Fuente Boost")
-    (company "Axel Gomez, Leonardo Fernández García")
+    (company "Axel Gomez, Darío Duvier y Leonardo Fernández García")
   )
 
   (layers
@@ -39,7 +39,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 1)
     (user_trace_width 2)
     (user_trace_width 3)
