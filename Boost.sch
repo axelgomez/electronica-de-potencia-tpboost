@@ -152,7 +152,7 @@ L Transistor_FET:IRLZ44N Q1
 U 1 1 5CEC6E11
 P 6550 3300
 F 0 "Q1" H 6756 3346 50  0000 L CNN
-F 1 "IRFZ44N" H 6756 3255 50  0000 L CNN
+F 1 "IRFZ24N" H 6756 3255 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6800 3225 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 6550 3300 50  0001 L CNN
 	1    6550 3300
