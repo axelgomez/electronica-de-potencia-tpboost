@@ -7,7 +7,7 @@ OK - RL mide 5,5cm por 1cm de ancho y 1cm de alto (1mm de diametro de las patas)
 OK - Pines de 2,54mm comunes para popner con jumpers 
 OK - Diodo schottky 1,5cm
 OK - Capacitor de 470uF 0,5cm. El encapsulado mide 1cm de diametro
-OK - Capacitor de 100uF 0,5cm. El encapsulado mide 1,4cm de diametro
+OK - Capacitor de 1000uF 0,5cm. El encapsulado mide 1,4cm de diametro
 OK - Capacitor de 1nF 0,3cm.
 OK - Capacitor de 100nF 0,5cm.
 OK - Capacitor de 100pF y 470pF 0,3cm
