@@ -568,12 +568,12 @@ $EndComp
 $Comp
 L Device:Jumper JPsc1
 U 1 1 5D0567D9
-P 8300 3250
-F 0 "JPsc1" V 8346 3162 50  0000 R CNN
-F 1 "Jumper" V 8255 3162 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8300 3250 50  0001 C CNN
-F 3 "~" H 8300 3250 50  0001 C CNN
-	1    8300 3250
+P 8100 3250
+F 0 "JPsc1" V 8146 3162 50  0000 R CNN
+F 1 "Jumper" V 8055 3162 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8100 3250 50  0001 C CNN
+F 3 "~" H 8100 3250 50  0001 C CNN
+	1    8100 3250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -596,12 +596,12 @@ Wire Wire Line
 $Comp
 L Device:Jumper JPl1
 U 1 1 5D080D5F
-P 6400 2600
-F 0 "JPl1" V 6446 2512 50  0000 R CNN
-F 1 "Jumper" V 6355 2512 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6400 2600 50  0001 C CNN
-F 3 "~" H 6400 2600 50  0001 C CNN
-	1    6400 2600
+P 6150 2600
+F 0 "JPl1" V 6196 2512 50  0000 R CNN
+F 1 "Jumper" V 6105 2512 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6150 2600 50  0001 C CNN
+F 3 "~" H 6150 2600 50  0001 C CNN
+	1    6150 2600
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -618,21 +618,17 @@ $EndComp
 $Comp
 L Device:Jumper JPd1
 U 1 1 5D08E811
-P 7150 2700
-F 0 "JPd1" H 7150 2964 50  0000 C CNN
-F 1 "Jumper" H 7150 2873 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7150 2700 50  0001 C CNN
-F 3 "~" H 7150 2700 50  0001 C CNN
-	1    7150 2700
+P 7150 2650
+F 0 "JPd1" H 7150 2914 50  0000 C CNN
+F 1 "Jumper" H 7150 2823 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7150 2650 50  0001 C CNN
+F 3 "~" H 7150 2650 50  0001 C CNN
+	1    7150 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 2300 6650 2300
-Wire Wire Line
 	6650 2150 6650 2300
 Connection ~ 6650 2300
-Wire Wire Line
-	6400 2900 6650 2900
 Wire Wire Line
 	6650 2900 6650 2950
 Connection ~ 6650 2900
@@ -644,27 +640,18 @@ Wire Wire Line
 Wire Wire Line
 	7300 2950 7450 2950
 Wire Wire Line
-	7900 2950 8300 2950
-Wire Wire Line
-	8300 2950 8550 2950
-Connection ~ 8300 2950
+	7900 2950 8100 2950
 Wire Wire Line
 	8550 2950 8550 3100
 Connection ~ 8550 2950
 Wire Wire Line
 	8550 2950 9250 2950
 Wire Wire Line
-	8300 3550 8550 3550
-Wire Wire Line
 	8550 3400 8550 3550
 Connection ~ 8550 3550
-Wire Wire Line
-	7450 2700 7450 2950
 Connection ~ 7450 2950
 Wire Wire Line
 	7450 2950 7600 2950
-Wire Wire Line
-	6850 2700 6850 2950
 Connection ~ 6850 2950
 Wire Wire Line
 	6850 2950 7000 2950
@@ -730,4 +717,17 @@ F 3 "~" H 6650 2000 50  0001 C CNN
 	1    6650 2000
 	1    0    0    -1  
 $EndComp
+Connection ~ 8100 2950
+Wire Wire Line
+	8100 2950 8550 2950
+Wire Wire Line
+	8100 3550 8550 3550
+Wire Wire Line
+	6150 2900 6650 2900
+Wire Wire Line
+	6150 2300 6650 2300
+Wire Wire Line
+	7450 2650 7450 2950
+Wire Wire Line
+	6850 2650 6850 2950
 $EndSCHEMATC

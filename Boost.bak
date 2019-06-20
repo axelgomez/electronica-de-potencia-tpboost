@@ -337,17 +337,6 @@ F 3 "" H 6650 1650 50  0001 C CNN
 	1    6650 1650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:L L1
-U 1 1 5CED603A
-P 6650 2000
-F 0 "L1" H 6702 2046 50  0000 L CNN
-F 1 "200u" H 6702 1955 50  0000 L CNN
-F 2 "Inductor_THT:L_Axial_L9.5mm_D4.0mm_P15.24mm_Horizontal_Fastron_SMCC" H 6650 2000 50  0001 C CNN
-F 3 "~" H 6650 2000 50  0001 C CNN
-	1    6650 2000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6650 1650 6650 1850
 Wire Wire Line
@@ -730,4 +719,15 @@ Wire Wire Line
 Connection ~ 9900 2950
 Wire Wire Line
 	3300 1700 3850 1700
+$Comp
+L Device:L L1
+U 1 1 5CED603A
+P 6650 2000
+F 0 "L1" H 6702 2046 50  0000 L CNN
+F 1 "200u" H 6702 1955 50  0000 L CNN
+F 2 "Inductor_THT:Inductor_26mm_x_8mm" H 6650 2000 50  0001 C CNN
+F 3 "~" H 6650 2000 50  0001 C CNN
+	1    6650 2000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
