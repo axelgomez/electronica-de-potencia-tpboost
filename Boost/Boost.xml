@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:\UTN\Electronica de Potencia\TP\kicad\repo\electronica-de-potencia-tpboost\Boost.sch</source>
+    <date>08/09/2019 12:37:00</date>
+    <tool>Eeschema (5.1.0)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Fuente Boost</title>
+        <company>Axel Gomez, Darío Duvier y Leonardo Fernández García</company>
+        <rev>1</rev>
+        <date/>
+        <source>Boost.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CU2">
+      <value>470u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE99017</tstamp>
+    </comp>
+    <comp ref="CU1">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE99CC3</tstamp>
+    </comp>
+    <comp ref="CS2">
+      <value>470u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE9BD12</tstamp>
+    </comp>
+    <comp ref="CS1">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE9C7EB</tstamp>
+    </comp>
+    <comp ref="COSC1">
+      <value>1n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEC6C69</tstamp>
+    </comp>
+    <comp ref="ROSC1">
+      <value>33k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEC76C3</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRFZ24N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRLZ44N" description="47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEC6E11</tstamp>
+    </comp>
+    <comp ref="DOUT1">
+      <value>1N5822</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <libsource lib="Diode" part="1N5822" description="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CECB04F</tstamp>
+    </comp>
+    <comp ref="CFB1">
+      <value>100p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CECD5E0</tstamp>
+    </comp>
+    <comp ref="RFB3">
+      <value>150k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CECDF63</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>UC3843_DIP8</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/uc3842.pdf</datasheet>
+      <libsource lib="Regulator_Controller" part="UC3843_DIP8" description="Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, PDIP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE8C180</tstamp>
+    </comp>
+    <comp ref="DZProt1">
+      <value>1N4746A 18V</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/85816/1n4728a.pdf</datasheet>
+      <libsource lib="Diode" part="1N47xxA" description="1300mW Silicon planar power Zener diodes, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CED0509</tstamp>
+    </comp>
+    <comp ref="RG1">
+      <value>10</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CED1256</tstamp>
+    </comp>
+    <comp ref="RQ1">
+      <value>0.5</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CED4351</tstamp>
+    </comp>
+    <comp ref="RCS1">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEDEE35</tstamp>
+    </comp>
+    <comp ref="CCS1">
+      <value>470p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEE3926</tstamp>
+    </comp>
+    <comp ref="RFB1">
+      <value>22k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEE7046</tstamp>
+    </comp>
+    <comp ref="RFB2">
+      <value>3k3</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEE781A</tstamp>
+    </comp>
+    <comp ref="COUT1">
+      <value>1000u</value>
+      <footprint>Capacitor_THT:CP_Radial_D14.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CECC04B</tstamp>
+    </comp>
+    <comp ref="RVFB1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CED96F9</tstamp>
+    </comp>
+    <comp ref="RL1">
+      <value>68</value>
+      <footprint>Resistor_THT:R_Axial_Power_L50.0mm_W9.0mm_P60.96mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D043E1B</tstamp>
+    </comp>
+    <comp ref="Rsc1">
+      <value>0,22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D053CE4</tstamp>
+    </comp>
+    <comp ref="JPsc1">
+      <value>Jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0567D9</tstamp>
+    </comp>
+    <comp ref="Rsl1">
+      <value>0,22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D080D59</tstamp>
+    </comp>
+    <comp ref="JPl1">
+      <value>Jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D080D5F</tstamp>
+    </comp>
+    <comp ref="Rsd1">
+      <value>0,22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D08E80A</tstamp>
+    </comp>
+    <comp ref="JPd1">
+      <value>Jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D08E811</tstamp>
+    </comp>
+    <comp ref="GNDIN1">
+      <value>Conn_01x01_MountingPin</value>
+      <footprint>Connector:Banana_Jack_1Pin</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D06B046</tstamp>
+    </comp>
+    <comp ref="VIN1">
+      <value>Conn_01x01_MountingPin</value>
+      <footprint>Connector:Banana_Jack_1Pin</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D05FFB3</tstamp>
+    </comp>
+    <comp ref="GNDOUT1">
+      <value>Conn_01x01_MountingPin</value>
+      <footprint>Connector:Banana_Jack_1Pin</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0729F8</tstamp>
+    </comp>
+    <comp ref="VOUT1">
+      <value>Conn_01x01_MountingPin</value>
+      <footprint>Connector:Banana_Jack_1Pin</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0729FE</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>200u</value>
+      <footprint>Inductor_THT:Inductor_26mm_x_8mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CED603A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper">
+      <description>Jumper, normally closed</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5820">
+      <aliases>
+        <alias>1N5821</alias>
+        <alias>1N5822</alias>
+        <alias>MBR340</alias>
+      </aliases>
+      <description>20V 3A Schottky Barrier Rectifier Diode, DO-201AD</description>
+      <docs>http://www.vishay.com/docs/88526/1n5820.pdf</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5820</field>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="ZPYxx">
+      <aliases>
+        <alias>1N47xxA</alias>
+        <alias>ZYxxx</alias>
+      </aliases>
+      <description>1300mW Zener Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/85790/zpy3v9.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZPYxx</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Controller" part="UC3842_DIP8">
+      <aliases>
+        <alias>UC3843_DIP8</alias>
+        <alias>UC3844_DIP8</alias>
+        <alias>UC3845_DIP8</alias>
+      </aliases>
+      <description>Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, PDIP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/uc3842.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">UC3842_DIP8</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMP" type="passive"/>
+        <pin num="2" name="FB" type="input"/>
+        <pin num="3" name="CS" type="input"/>
+        <pin num="4" name="RC" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="OUT" type="output"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="REF" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BUZ11">
+      <aliases>
+        <alias>IRF3205</alias>
+        <alias>IRF540N</alias>
+        <alias>IRF740</alias>
+        <alias>IRLB8721PBF</alias>
+        <alias>IRLZ34N</alias>
+        <alias>IRLZ44N</alias>
+      </aliases>
+      <description>30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/BU/BUZ11.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BUZ11</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>E:\Archivos de Programa\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>E:\Archivos de Programa\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>E:\Archivos de Programa\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="Regulator_Controller">
+      <uri>E:\Archivos de Programa\KiCad\share\kicad\library/Regulator_Controller.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>E:\Archivos de Programa\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Earth">
+      <node ref="RQ1" pin="2"/>
+      <node ref="CS1" pin="2"/>
+      <node ref="CS2" pin="2"/>
+      <node ref="CU1" pin="2"/>
+      <node ref="CU2" pin="2"/>
+      <node ref="COSC1" pin="2"/>
+      <node ref="GNDOUT1" pin="1"/>
+      <node ref="GNDIN1" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="DZProt1" pin="2"/>
+      <node ref="CCS1" pin="2"/>
+      <node ref="RL1" pin="2"/>
+      <node ref="RFB2" pin="2"/>
+      <node ref="COUT1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(RFB1-Pad1)">
+      <node ref="RVFB1" pin="3"/>
+      <node ref="RFB1" pin="1"/>
+      <node ref="RVFB1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(CCS1-Pad1)">
+      <node ref="RCS1" pin="2"/>
+      <node ref="CCS1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(COUT1-Pad1)">
+      <node ref="JPsc1" pin="1"/>
+      <node ref="Rsc1" pin="2"/>
+      <node ref="COUT1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(DOUT1-Pad1)">
+      <node ref="RVFB1" pin="1"/>
+      <node ref="RL1" pin="1"/>
+      <node ref="Rsc1" pin="1"/>
+      <node ref="DOUT1" pin="1"/>
+      <node ref="VOUT1" pin="1"/>
+      <node ref="JPsc1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(JPd1-Pad1)">
+      <node ref="Q1" pin="2"/>
+      <node ref="Rsl1" pin="2"/>
+      <node ref="JPl1" pin="1"/>
+      <node ref="Rsd1" pin="2"/>
+      <node ref="JPd1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(JPl1-Pad2)">
+      <node ref="L1" pin="2"/>
+      <node ref="JPl1" pin="2"/>
+      <node ref="Rsl1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(DOUT1-Pad2)">
+      <node ref="Rsd1" pin="1"/>
+      <node ref="DOUT1" pin="2"/>
+      <node ref="JPd1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(ROSC1-Pad1)">
+      <node ref="U1" pin="8"/>
+      <node ref="ROSC1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(COSC1-Pad1)">
+      <node ref="ROSC1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="COSC1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(DZProt1-Pad1)">
+      <node ref="RG1" pin="1"/>
+      <node ref="DZProt1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="RQ1" pin="1"/>
+      <node ref="RCS1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(CFB1-Pad1)">
+      <node ref="CFB1" pin="1"/>
+      <node ref="RFB3" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(CFB1-Pad2)">
+      <node ref="RFB3" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="CFB1" pin="2"/>
+      <node ref="RFB1" pin="2"/>
+      <node ref="RFB2" pin="1"/>
+    </net>
+    <net code="15" name="+15V">
+      <node ref="VIN1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="L1" pin="1"/>
+      <node ref="CU2" pin="1"/>
+      <node ref="CS1" pin="1"/>
+      <node ref="CS2" pin="1"/>
+      <node ref="CU1" pin="1"/>
+    </net>
+    <net code="16" name="Net-(RG1-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="RG1" pin="2"/>
+    </net>
+  </nets>
+</export>
