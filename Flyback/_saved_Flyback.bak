@@ -1,0 +1,203 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Transformer_1P_2S T?
+U 1 1 5D902CE5
+P 7350 1450
+F 0 "T?" H 7350 2031 50  0000 C CNN
+F 1 "Transformer_1P_2S" H 7350 1940 50  0000 C CNN
+F 2 "" H 7350 1450 50  0001 C CNN
+F 3 "~" H 7350 1450 50  0001 C CNN
+	1    7350 1450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Thermistor_NTC TH?
+U 1 1 5D910C56
+P 3300 900
+F 0 "TH?" V 3010 900 50  0000 C CNN
+F 1 "Thermistor_NTC" V 3101 900 50  0000 C CNN
+F 2 "" H 3300 950 50  0001 C CNN
+F 3 "~" H 3300 950 50  0001 C CNN
+	1    3300 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5D911800
+P 3750 1300
+F 0 "C?" H 3868 1346 50  0000 L CNN
+F 1 "100u" H 3868 1255 50  0000 L CNN
+F 2 "" H 3788 1150 50  0001 C CNN
+F 3 "~" H 3750 1300 50  0001 C CNN
+	1    3750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D911C39
+P 4250 1300
+F 0 "C?" H 4365 1346 50  0000 L CNN
+F 1 "0.1u" H 4365 1255 50  0000 L CNN
+F 2 "" H 4288 1150 50  0001 C CNN
+F 3 "~" H 4250 1300 50  0001 C CNN
+	1    4250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9120BB
+P 3750 1800
+F 0 "#PWR?" H 3750 1550 50  0001 C CNN
+F 1 "GND" H 3755 1627 50  0000 C CNN
+F 2 "" H 3750 1800 50  0001 C CNN
+F 3 "" H 3750 1800 50  0001 C CNN
+	1    3750 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D91273C
+P 4250 1800
+F 0 "#PWR?" H 4250 1550 50  0001 C CNN
+F 1 "GND" H 4255 1627 50  0000 C CNN
+F 2 "" H 4250 1800 50  0001 C CNN
+F 3 "" H 4250 1800 50  0001 C CNN
+	1    4250 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D912C6C
+P 2650 1800
+F 0 "#PWR?" H 2650 1550 50  0001 C CNN
+F 1 "GND" H 2655 1627 50  0000 C CNN
+F 2 "" H 2650 1800 50  0001 C CNN
+F 3 "" H 2650 1800 50  0001 C CNN
+	1    2650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5D9135EC
+P 1700 900
+F 0 "J?" H 1788 864 50  0000 L CNN
+F 1 "AC" H 1788 773 50  0000 L CNN
+F 2 "" H 1700 900 50  0001 C CNN
+F 3 "~" H 1700 900 50  0001 C CNN
+	1    1700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5D913E61
+P 1700 1700
+F 0 "J?" H 1788 1664 50  0000 L CNN
+F 1 "GND" H 1788 1573 50  0000 L CNN
+F 2 "" H 1700 1700 50  0001 C CNN
+F 3 "~" H 1700 1700 50  0001 C CNN
+	1    1700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D9158BF
+P 5750 1700
+F 0 "R?" H 5680 1654 50  0000 R CNN
+F 1 "R" H 5680 1745 50  0000 R CNN
+F 2 "" V 5680 1700 50  0001 C CNN
+F 3 "~" H 5750 1700 50  0001 C CNN
+	1    5750 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Regulator_Controller:UC3843_DIP8 U?
+U 1 1 5D915201
+P 4900 3600
+F 0 "U?" H 4900 4181 50  0000 C CNN
+F 1 "UC3843_DIP8" H 4900 4090 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4900 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uc3842.pdf" H 4900 3600 50  0001 C CNN
+	1    4900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode_Bridge:W10G D?
+U 1 1 5D915B82
+P 2650 1300
+F 0 "D?" H 2994 1346 50  0000 L CNN
+F 1 "W10G" H 2994 1255 50  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_Round_D9.8mm" H 2800 1425 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/88769/woo5g.pdf" H 2650 1300 50  0001 C CNN
+	1    2650 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRF740 Q?
+U 1 1 5D917572
+P 7250 3050
+F 0 "Q?" H 7456 3096 50  0000 L CNN
+F 1 "IRF840" H 7456 3005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7500 2975 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/91054/91054.pdf" H 7250 3050 50  0001 L CNN
+	1    7250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BA159 D?
+U 1 1 5D91B7DE
+P 6300 2350
+F 0 "D?" H 6300 2566 50  0000 C CNN
+F 1 "UF4007" H 6300 2475 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6300 2175 50  0001 C CNN
+F 3 "http://diotec.com/tl_files/diotec/files/pdf/datasheets/ba157" H 6300 2350 50  0001 C CNN
+	1    6300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BA159 D?
+U 1 1 5D91AB23
+P 6450 1000
+F 0 "D?" V 6404 921 50  0000 R CNN
+F 1 "UF4007" V 6495 921 50  0000 R CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6450 825 50  0001 C CNN
+F 3 "http://diotec.com/tl_files/diotec/files/pdf/datasheets/ba157" H 6450 1000 50  0001 C CNN
+	1    6450 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1.5KExxA D?
+U 1 1 5D91E0E4
+P 6450 1450
+F 0 "D?" H 6450 1666 50  0000 C CNN
+F 1 "1.5KExxA" H 6450 1575 50  0000 C CNN
+F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 6450 1250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 6400 1450 50  0001 C CNN
+	1    6450 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:ZPDxx D?
+U 1 1 5D92E173
+P 6600 3350
+F 0 "D?" V 6554 3429 50  0000 L CNN
+F 1 "18V 500mW" V 6645 3429 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 6600 3175 50  0001 C CNN
+F 3 "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1" H 6600 3350 50  0001 C CNN
+	1    6600 3350
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
