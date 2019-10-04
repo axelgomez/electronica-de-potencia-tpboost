@@ -196,7 +196,7 @@ U 1 1 5D9369A1
 P 8050 4300
 F 0 "DREG1" V 8100 4200 50  0000 R CNN
 F 1 "TL431LP" V 8000 4200 50  0000 R CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8050 4150 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 8050 4150 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 8050 4300 50  0001 C CIN
 	1    8050 4300
 	0    1    -1   0   
@@ -790,7 +790,7 @@ L Device:R RFB2
 U 1 1 5DAAF832
 P 9150 3750
 F 0 "RFB2" H 9050 3700 50  0000 R CNN
-F 1 "1k 1/4W" H 9050 3800 50  0000 R CNN
+F 1 "2.7k 1/4W" H 9050 3800 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9080 3750 50  0001 C CNN
 F 3 "~" H 9150 3750 50  0001 C CNN
 	1    9150 3750
@@ -804,7 +804,7 @@ L Device:R_POT RVFB1
 U 1 1 5DAB56DB
 P 9150 3350
 F 0 "RVFB1" H 9050 3400 50  0000 R CNN
-F 1 "10k CERMET" H 9050 3300 50  0000 R CNN
+F 1 "1k CERMET" H 9050 3300 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" H 9150 3350 50  0001 C CNN
 F 3 "~" H 9150 3350 50  0001 C CNN
 	1    9150 3350
@@ -874,15 +874,15 @@ Wire Wire Line
 Wire Wire Line
 	5750 1550 6200 1550
 $Comp
-L Device:Transformer_1P_2S L1
+L FlybackSymbol:Trafo-E30157 L1
 U 1 1 5D902CE5
 P 6600 1650
 F 0 "L1" H 6950 2300 50  0000 R CNN
 F 1 "L Prim, secund y aux" H 6950 2200 50  0000 R CNN
-F 2 "" H 6600 1650 50  0001 C CNN
+F 2 "Flyback:Trafo-E30157" H 6600 1650 50  0001 C CNN
 F 3 "~" H 6600 1650 50  0001 C CNN
 	1    6600 1650
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6200 1750 6100 1750
@@ -914,9 +914,9 @@ Text GLabel 4050 7050 3    50   Input ~ 0
 IDRAIN-
 Text GLabel 4050 6250 1    50   Input ~ 0
 IDRAIN+
-Text GLabel 1050 7000 3    50   Input ~ 0
+Text GLabel 1300 7000 3    50   Input ~ 0
 I-IN-
-Text GLabel 1050 6200 1    50   Input ~ 0
+Text GLabel 1300 6200 1    50   Input ~ 0
 I-IN+
 NoConn ~ 6400 3700
 Wire Wire Line
@@ -948,7 +948,7 @@ Wire Wire Line
 	5550 3250 5550 4050
 Wire Wire Line
 	8200 2050 8200 2150
-Text GLabel 2600 6150 1    50   Input ~ 0
+Text GLabel 2600 6200 1    50   Input ~ 0
 I-TH+
 Text GLabel 2600 7000 3    50   Input ~ 0
 I-TH-
@@ -1132,39 +1132,39 @@ $EndComp
 $Comp
 L Device:R RS-I-IN1
 U 1 1 5DDB928A
-P 1550 6600
-F 0 "RS-I-IN1" H 1450 6650 50  0000 R CNN
-F 1 "0.22 1/2W" H 1450 6550 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 1480 6600 50  0001 C CNN
-F 3 "~" H 1550 6600 50  0001 C CNN
-	1    1550 6600
+P 1800 6600
+F 0 "RS-I-IN1" H 1700 6650 50  0000 R CNN
+F 1 "0.22 1/2W" H 1700 6550 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 1730 6600 50  0001 C CNN
+F 3 "~" H 1800 6600 50  0001 C CNN
+	1    1800 6600
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 6200 1050 6300
+	1300 6200 1300 6300
 Wire Wire Line
-	1550 6300 1550 6450
-Connection ~ 1050 6300
+	1800 6300 1800 6450
+Connection ~ 1300 6300
 Wire Wire Line
-	1550 6750 1550 6900
+	1800 6750 1800 6900
 Wire Wire Line
-	1050 6900 1050 7000
+	1300 6900 1300 7000
 $Comp
 L Device:Jumper JP-I-IN1
 U 1 1 5DDB9298
-P 1050 6600
-F 0 "JP-I-IN1" V 1004 6512 50  0000 R CNN
-F 1 "Jumper" V 1095 6512 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1050 6600 50  0001 C CNN
-F 3 "~" H 1050 6600 50  0001 C CNN
-	1    1050 6600
+P 1300 6600
+F 0 "JP-I-IN1" V 1254 6512 50  0000 R CNN
+F 1 "Jumper" V 1345 6512 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 6600 50  0001 C CNN
+F 3 "~" H 1300 6600 50  0001 C CNN
+	1    1300 6600
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	1050 6300 1550 6300
+	1300 6300 1800 6300
 Wire Wire Line
-	1050 6900 1550 6900
-Connection ~ 1050 6900
+	1300 6900 1800 6900
+Connection ~ 1300 6900
 Wire Wire Line
 	4050 6350 4650 6350
 Wire Wire Line
@@ -1293,6 +1293,19 @@ Wire Wire Line
 	7100 5350 7100 5500
 Wire Wire Line
 	9450 1250 10500 1250
+$Comp
+L Device:Fuse F1
+U 1 1 5D9966CE
+P 1350 1550
+F 0 "F1" V 1153 1550 50  0000 C CNN
+F 1 "250V 1A" V 1244 1550 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" V 1280 1550 50  0001 C CNN
+F 3 "~" H 1350 1550 50  0001 C CNN
+	1    1350 1550
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	1050 1550 1650 1550
+	1500 1550 1650 1550
+Wire Wire Line
+	1050 1550 1200 1550
 $EndSCHEMATC
