@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Flyback-rescue)(type Legacy)(uri ${KIPRJMOD}/Flyback-rescue.lib)(options "")(descr ""))
+)
