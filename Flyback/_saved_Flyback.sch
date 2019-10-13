@@ -839,7 +839,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 1550 6200 1550
 $Comp
-L FlybackSymbol:Trafo-E30157 L1
+L Flyback-rescue:Trafo-E30157-FlybackSymbol L1
 U 1 1 5D902CE5
 P 6600 1650
 F 0 "L1" H 6950 2300 50  0000 R CNN
